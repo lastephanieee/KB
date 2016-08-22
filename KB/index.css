@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+
+body {
+    background-color: #fff;
+    color: #2d2e2e;
+    font-size: 11px;
+    line-height: 14px;
+    margin: 0 0 0 0;
+    width: 880px;
+    height: 680px;
+    font-family: Verdana;
+}
+
+.backgroundLogo {
+    background-image: url(images/senkapozadina1.gif);
+    width: 880px;
+    height: 100px;
+    margin-left: 260px;
+    /* margin-top: 27px;*/
+}
+
+.logoPicture {
+    background-image: url(images/logos/KB-logo-up_mk.gif);
+    height: 50px;
+    width: 375px;
+    margin-left: 280px;
+    background-position: center;
+    margin-top: -80px;
+    margin-bottom: 30px;
+}
+
+.navigation {
+    background-image: url(images/background.png);
+    width: 880px;
+    height: 450px;
+    margin-left: 260px;
+}
+
+.extraDiv {
+    background-image: url(images/MenuUp.png);
+    width: 880px;
+    height: 25px;
+    margin-top: -548px;
+    margin-left: 260px;
+
+}
+
+#tabs {
+    background-image: url(images/MenuBottom5.png);
+    width: 880px;
+    height: 25px;
+    margin-top: 50px;
+}
+
+.conditions h3, .safety h3 {
+    display: inline;
+    float: left;
+    margin-top: -18px;
+    color: whitesmoke;
+    overflow: hidden;
+    width: 130px;
+    margin-left: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.introduction h3, .instalation h3, .mainMenu h3, .contact h3 {
+    display: inline;
+    float: left;
+    margin-top: -12px;
+    color: whitesmoke;
+    overflow: hidden;
+    width: 130px;
+    margin-left: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.subParagraphs {
+    float: left;
+    margin: 20px;
+    margin-left: 580px;
+    margin-top: 30px;
+    color: darkblue;
+    position: absolute;
+    background: white;
+}
+
+.subParagraphs p {
+    padding: 3px;
+    margin-top: 5px;
+    position: relative;
+    border: 1px solid black;
+    font-weight: bold;
+    background: #ededff;
+
+}
+
+.subParagraphs p:hover {
+    color: green;
+    position: relative;
+}
+
+.cell {
+    background-image: url(images/resized.png);
+    width: 450px;
+    height: 450px;
+    float: left;
+    margin-left: 230px;
+    margin-top: -430px;
+}
+
+.text {
+    width: 500px;
+    height: 500px;
+    float: right;
+    font-size: 30px;
+    margin-top: -270px;
+    text-align: center;
+    margin-right: -200px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.line {
+    background-image: url(images/lenta-web.jpg);
+    width: 880px;
+    height: 24px;
+    margin-top: 0px;
+    margin-left: 260px;
+}
+
+.logoFooter {
+    background-image: url(images/logos/KB-logo-down_mk.gif);
+    width: 174px;
+    height: 30px;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+
+.intro h2, .conds h2, .insta h2, .safe h2, .aboutUs h2, .menu h2, .bancomats h2, .network h2, .currency h2, .creditCards h2, .myTrans h2, .tekovniSmetki h2, .kreditniKartichki h2, .devizniSmetki h2 {
+    color: green;
+    margin-bottom: 20px;
+    margin-top: -300px;
+    margin-left: 570px;
+    width: 600px;
+}
+
+.intro p, .conds p, .insta p, .safe p, .menu p, .bancomats p, .network p, .currency p, .creditCards p, .myTrans p, .tekovniSmetki p, .kreditniKartichki p, .devizniSmetki p {
+    width: 500px;
+    margin-left: 580px;
+    padding: 3px;
+    text-indent: 10px;
+}
+
+.intro, .conds, .insta, .safe, .aboutUs, .bancomats, .menu, .network, .currency, .creditCards, .myTrans, .tekovniSmetki, .kreditniKartichki, .devizniSmetki {
+    margin-top: -380px;
+}
+
+.intro, .insta {
+    height: 380px;
+    text-align: justify;
+    width: 600px;
+}
+
+.conds, .safe, .aboutUs, .menu, .tekovniSmetki {
+    height: 380px;
+}
+
+.intro ul {
+    width: 480px;
+    margin-left: 650px;
+    padding: 5px;
+    line-height: 20px;
+}
+
+.conds ul, .safe ul, .list ul, .myTrans ul, .tekovniSmetki ul, .kreditniKartichki ul, .devizniSmetki ul {
+    width: 500px;
+    margin-left: 630px;
+    padding: 5px;
+    line-height: 20px;
+}
+
+.aboutUs p {
+    text-align: center;
+    width: 500px;
+    margin-left: 580px;
+    padding: 3px;
+    text-indent: 10px;
+    font-weight: bold;
+}
+
+.aboutUs h2 {
+    margin-bottom: 60px;
+}
+
+.extraDiv2 {
+    background-image: url(images/background.png);
+    height: 740px;
+    width: 880px;
+    margin-top: 24px;
+    margin-left: 260px;
+    position: static;
+}
+
+.extraDiv3 {
+    background-image: url(images/lenta-web.jpg);
+    width: 880px;
+    height: 24px;
+    margin-left: 260px;
+}
+
+.extraDiv4 {
+    background-image: url(images/logos/KB-logo-down_mk.gif);
+    width: 174px;
+    height: 30px;
+    margin-left: 260px;
+}
+
