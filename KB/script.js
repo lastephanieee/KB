@@ -170,15 +170,11 @@ $(document).ready(function () {
     });
 
     $(".ban").click(function () {
-        $(".aboutUs").hide();
+        $(".text").hide();
         $(".intro").hide();
         $(".conds").hide();
-        $(".text").hide();
         $(".insta").hide();
         $(".safe").hide();
-        $(".extraDiv2").hide();
-        $(".extraDiv3").hide();
-        $(".extraDiv4").hide();
         $(".menu").hide();
         $(".bancomats").show();
         $(".network").hide();
@@ -189,6 +185,7 @@ $(document).ready(function () {
         $(".tekovniSmetki").hide();
         $(".kreditniKartichki").hide();
         $(".devizniSmetki").hide();
+        $(".aboutUs").hide();
 
     });
 
@@ -284,7 +281,7 @@ $(document).ready(function () {
         $(".devizniSmetki").hide();
     });
 
-    (".kreditni").click(function(){
+    $(".kreditni").click(function(){
         $(".intro").hide();
         $(".conds").hide();
         $(".insta").hide();

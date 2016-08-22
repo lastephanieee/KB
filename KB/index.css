@@ -142,7 +142,7 @@ body {
     margin-top: 20px;
 }
 
-.intro h2, .conds h2, .insta h2, .safe h2, .aboutUs h2, .menu h2, .bancomats h2, .network h2, .currency h2, .creditCards h2, .myTrans h2, .tekovniSmetki h2, .kreditniKartichki h2, .devizniSmetki h2 {
+.intro h2, .conds h2, .insta h2, .safe h2, .aboutUs h2, .menu h2{
     color: green;
     margin-bottom: 20px;
     margin-top: -300px;
@@ -150,14 +150,14 @@ body {
     width: 600px;
 }
 
-.intro p, .conds p, .insta p, .safe p, .menu p, .bancomats p, .network p, .currency p, .creditCards p, .myTrans p, .tekovniSmetki p, .kreditniKartichki p, .devizniSmetki p {
+.intro p, .conds p, .insta p, .safe p, .menu p{
     width: 500px;
     margin-left: 580px;
     padding: 3px;
     text-indent: 10px;
 }
 
-.intro, .conds, .insta, .safe, .aboutUs, .bancomats, .menu, .network, .currency, .creditCards, .myTrans, .tekovniSmetki, .kreditniKartichki, .devizniSmetki {
+.intro, .conds, .insta, .safe, .aboutUs, .bancomats, .menu{
     margin-top: -380px;
 }
 
@@ -167,7 +167,7 @@ body {
     width: 600px;
 }
 
-.conds, .safe, .aboutUs, .menu, .tekovniSmetki {
+.conds, .safe, .aboutUs, .menu {
     height: 380px;
 }
 
@@ -178,7 +178,7 @@ body {
     line-height: 20px;
 }
 
-.conds ul, .safe ul, .list ul, .myTrans ul, .tekovniSmetki ul, .kreditniKartichki ul, .devizniSmetki ul {
+.conds ul, .safe ul, .list ul, .mainMenu ul{
     width: 500px;
     margin-left: 630px;
     padding: 5px;
@@ -220,4 +220,3 @@ body {
     height: 30px;
     margin-left: 260px;
 }
-
