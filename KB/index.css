@@ -40,6 +40,12 @@ body {
     margin-left: 260px;
 }
 
+.mainMenu h3:hover, .introduction h3:hover, .conditions h3:hover, .instalation h3:hover, .contact h3:hover, .safety h3:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: green;
+}
+
 .extraDiv {
     background-image: url(images/MenuUp.png);
     width: 880px;
@@ -97,7 +103,7 @@ body {
     border: 1px solid black;
     font-weight: bold;
     background: #ededff;
-
+    z-index: 9999;
 }
 
 .subParagraphs p:hover {
@@ -132,6 +138,8 @@ body {
     height: 24px;
     margin-top: 0px;
     margin-left: 260px;
+    position: relative;
+    z-index: -1;
 }
 
 .logoFooter {
@@ -140,9 +148,11 @@ body {
     height: 30px;
     margin-left: 260px;
     margin-top: 20px;
+    position: relative;
+    z-index: -1;
 }
 
-.intro h2, .conds h2, .insta h2, .safe h2, .aboutUs h2, .menu h2{
+.intro h2, .conds h2, .insta h2, .safe h2, .aboutUs h2 {
     color: green;
     margin-bottom: 20px;
     margin-top: -300px;
@@ -150,14 +160,14 @@ body {
     width: 600px;
 }
 
-.intro p, .conds p, .insta p, .safe p, .menu p{
+.intro p, .conds p, .insta p, .safe p {
     width: 500px;
     margin-left: 580px;
     padding: 3px;
     text-indent: 10px;
 }
 
-.intro, .conds, .insta, .safe, .aboutUs, .bancomats, .menu{
+.intro, .conds, .insta, .safe, .aboutUs {
     margin-top: -380px;
 }
 
@@ -167,7 +177,7 @@ body {
     width: 600px;
 }
 
-.conds, .safe, .aboutUs, .menu {
+.conds, .safe, .aboutUs, .menu, .bancomats, .network, .currency, .creditCards, .notifications, .myTrans, .devizniSmetki {
     height: 380px;
 }
 
@@ -178,11 +188,52 @@ body {
     line-height: 20px;
 }
 
-.conds ul, .safe ul, .list ul, .mainMenu ul{
+.conds ul, .safe ul, .list ul {
     width: 500px;
     margin-left: 630px;
     padding: 5px;
     line-height: 20px;
+}
+
+.bancomats, .network, .currency, .creditCards, .notifications, .myTrans, .devizniSmetki {
+    margin-top: -381px;
+    position: relative;
+    z-index: 1;
+}
+
+.network h2 {
+    color: green;
+    margin-left: 320px;
+    margin-bottom: 20px;
+}
+
+.bancomats h2, .currency h2 , .creditCards h2, .notifications h2, .myTrans h2, .devizniSmetki h2{
+    color: green;
+    margin-bottom: 20px;
+    margin-top: -330px;
+    margin-left: 320px;
+    width: 600px;
+    z-index: 1;
+    position: relative;
+}
+
+.bancomats p, .network p, .currency p, .creditCards p, .myTrans p, .devizniSmetki p{
+    width: 450px;
+    margin-left: 340px;
+    padding: 3px;
+    text-indent: 10px;
+    text-align: justify;
+    z-index: 1;
+    position: relative;
+}
+
+.notifications ul, .devizniSmetki ul {
+    width: 450px;
+    margin-left: 340px;
+    padding: 3px;
+    text-indent: 10px;
+    z-index: 1;
+    position: relative;
 }
 
 .aboutUs p {
@@ -204,7 +255,8 @@ body {
     width: 880px;
     margin-top: 24px;
     margin-left: 260px;
-    position: static;
+    position: relative;
+    z-index: -1;
 }
 
 .extraDiv3 {
@@ -219,4 +271,83 @@ body {
     width: 174px;
     height: 30px;
     margin-left: 260px;
+}
+
+.phone2 {
+    background-image: url(images/phone2.png);
+    width: 450px;
+    height: 450px;
+    float: right;
+    margin-top: -270px;
+    margin-right: -330px;
+    z-index: -1;
+    position: relative;
+    display: block;
+}
+
+.phone3 {
+    background-image: url(images/phone3.png);
+    width: 450px;
+    height: 450px;
+    float: right;
+    margin-right: -330px;
+    margin-top: -270px;
+    z-index: -1;
+    position: relative;
+    display: block;
+}
+
+.phone4 {
+    background-image: url(images/phone4.png);
+    width: 450px;
+    height: 450px;
+    margin-left: 730px;
+    margin-top: -150px;
+    z-index: -1;
+    position: relative;
+    display: block;
+}
+
+.phone5 {
+    background-image: url(images/phone5.png);
+    width: 450px;
+    height: 450px;
+    margin-left: 730px;
+    margin-top: -260px;
+    z-index: -1;
+    position: relative;
+    display: block;
+}
+
+.phone6 {
+    background-image: url(images/phone6.png);
+    width: 450px;
+    height: 450px;
+    margin-left: 730px;
+    margin-top: -280px;
+    z-index: -1;
+    position: relative;
+    display: block;
+}
+
+.phone7 {
+    background-image: url(images/phone7.png);
+    width: 450px;
+    height: 450px;
+    margin-left: 730px;
+    margin-top: -200px;
+    z-index: -1;
+    position: relative;
+    display: block;
+}
+
+.phone8 {
+    background-image: url(images/phone8.png);
+    width: 450px;
+    height: 450px;
+    margin-left: 730px;
+    margin-top: -395px;
+    z-index: -1;
+    position: relative;
+    display: block;
 }
