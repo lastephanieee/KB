@@ -150,7 +150,8 @@ body {
 }
 
 .conds, .safe, .aboutUs, .menu, .bancomats, .network, .currency, .creditCards, .notifications, .myTrans, .devizniSmetki,
-.tekovniSmetki, .kreditniKartichki, .denarskiKniski, .devizniKniski, .credit, .limitCards,  .limitDevices, .leftMenu, .myData{
+.tekovniSmetki, .kreditniKartichki, .denarskiKniski, .devizniKniski, .credit, .limitCards, .limitDevices, .leftMenu, .myData,
+.activation {
     height: 380px;
 }
 
@@ -169,7 +170,7 @@ body {
 }
 
 .bancomats, .network, .currency, .creditCards, .notifications, .myTrans, .devizniSmetki, .tekovniSmetki,
-.kreditniKartichki, .denarskiKniski, .devizniKniski, .credit, .limitCards, .limitDevices, .leftMenu, .myData {
+.kreditniKartichki, .denarskiKniski, .devizniKniski, .credit, .limitCards, .limitDevices, .leftMenu, .myData, .activation {
     margin-top: -381px;
     position: relative;
     z-index: 1;
@@ -183,7 +184,7 @@ body {
 
 .bancomats h2, .currency h2, .creditCards h2, .notifications h2, .myTrans h2, .devizniSmetki h2,
 .tekovniSmetki h2, .kreditniKartichki h2, .denarskiKniski h2, .devizniKniski h2, .credit h2, .limitCards h2, .limitDevices h2,
-.leftMenu h2, .myData h2 {
+.leftMenu h2, .myData h2, .activation h2 {
     color: green;
     margin-bottom: 20px;
     margin-top: -330px;
@@ -201,18 +202,18 @@ body {
     position: relative;
 }
 
-.tekovniSmetki ul li, .kreditniKartichki ul li{
+.tekovniSmetki ul li, .kreditniKartichki ul li {
     margin-left: 70px;
     margin-top: -5px;
 }
 
-.leftMenu ul li{
+.leftMenu ul li {
     margin-left: 30px;
     width: 500px;
 }
 
 .bancomats p, .network p, .currency p, .creditCards p, .myTrans p, .devizniSmetki p, .tekovniSmetki p, .kreditniKartichki p,
-.denarskiKniski p, .devizniKniski p, .credit p, .limitCards p, .limitDevices p, .leftMenu p, .myData p {
+.denarskiKniski p, .devizniKniski p, .credit p, .limitCards p, .limitDevices p, .leftMenu p, .myData p, .activation p {
     width: 450px;
     margin-left: 340px;
     padding: 3px;
@@ -222,13 +223,17 @@ body {
     position: relative;
 }
 
-.notifications ul, .devizniSmetki ul, .tekovniSmetki ul, .kreditniKartichki ul, .leftMenu ul {
+.notifications ul, .devizniSmetki ul, .tekovniSmetki ul, .kreditniKartichki ul, .leftMenu ul, .activation ol {
     width: 450px;
     margin-left: 340px;
     padding: 3px;
     text-indent: 10px;
     z-index: 1;
     position: relative;
+}
+
+.activation ol li {
+    margin-left: 50px;
 }
 
 .aboutUs p {
@@ -505,7 +510,7 @@ body {
     display: block;
 }
 
-.phone19{
+.phone19 {
     background-image: url(images/phone19.png);
     width: 450px;
     height: 450px;
@@ -541,4 +546,37 @@ body {
     z-index: 1;
     position: relative;
     display: block;
+}
+
+.phone22 {
+    background-image: url(images/phone22.jpg);
+    width: 321px;
+    height: 322px;
+    float: right;
+    margin-top: -230px;
+    margin-right: -330px;
+    z-index: 1;
+    position: relative;
+    display: block;
+}
+
+.phone23 {
+    background-image: url(images/phone23.jpg);
+    width: 616px;
+    height: 91px;
+    margin-left: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    z-index: 1;
+    position: relative;
+}
+
+.phone24 {
+    background-image: url(images/phone24.jpg);
+    width: 414px;
+    height: 276px;
+    z-index: 1;
+    position: relative;
+    margin-left: 450px;
+    margin-top: 30px;
 }

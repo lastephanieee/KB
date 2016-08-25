@@ -33,6 +33,7 @@ $(document).ready(function () {
     $(".limitDevices").hide();
     $(".leftMenu").hide();
     $(".myData").hide();
+    $(".activation").hide();
 
 
 
@@ -75,6 +76,8 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
+
     });
 
 
@@ -108,6 +111,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -141,6 +145,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -174,6 +179,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -207,6 +213,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -240,6 +247,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -274,6 +282,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -307,6 +316,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -340,6 +350,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -373,6 +384,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -406,6 +418,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -439,6 +452,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -472,6 +486,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -505,6 +520,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -538,6 +554,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -571,6 +588,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -604,6 +622,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -637,6 +656,7 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -670,6 +690,8 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
+
 
     });
 
@@ -703,6 +725,7 @@ $(document).ready(function () {
         $(".limitDevices").show();
         $(".leftMenu").hide();
         $(".myData").hide();
+        $(".activation").hide();
 
     });
 
@@ -736,6 +759,8 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").show();
         $(".myData").hide();
+        $(".activation").hide();
+
     });
 
     $(".data").click(function(){
@@ -768,6 +793,41 @@ $(document).ready(function () {
         $(".limitDevices").hide();
         $(".leftMenu").hide();
         $(".myData").show();
+        $(".activation").hide();
+
+    });
+
+    $(".reg").click(function(){
+        $(".bancomats").hide();
+        $(".extraDiv2").hide();
+        $(".extraDiv3").hide();
+        $(".extraDiv4").hide();
+        $(".conds").hide();
+        $(".intro").hide();
+        $(".text").hide();
+        $(".insta").hide();
+        $(".aboutUs").hide();
+        $(".safe").hide();
+        $(".cell").hide();
+        $(".network").hide();
+        $(".currency").hide();
+        $(".creditCards").hide();
+        $(".notifications").hide();
+        $(".myTrans").hide();
+        $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").show();
+        $(".extraDiv7").show();
+        $(".extraDiv8").show();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
+        $(".activation").show();
     })
 
 });
