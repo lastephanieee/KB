@@ -21,20 +21,62 @@ $(document).ready(function () {
     $(".notifications").hide();
     $(".myTrans").hide();
     $(".devizniSmetki").hide();
+    $(".tekovniSmetki").hide();
+    $(".extraDiv6").hide();
+    $(".extraDiv7").hide();
+    $(".extraDiv8").hide();
+    $(".kreditniKartichki").hide();
+    $(".denarskiKniski").hide();
+    $(".devizniKniski").hide();
+    $(".credit").hide();
+    $(".limitCards").hide();
+    $(".limitDevices").hide();
+    $(".leftMenu").hide();
+    $(".myData").hide();
 
 
-    $(".mainMenu h3")
-        .mouseover(function () {
-            $(".subParagraphs").show();
-            $(".subParagraphs")
-                .mouseover(function () {
-                    $(".subParagraphs").show();
-                })
-                .mouseout(function () {
-                    $(".subParagraphs").hide();
 
-                });
-        });
+    $(".mainMenu").hover(function () {
+        $(".subParagraphs").show();
+
+    });
+
+    $(".mainMenu").click(function () {
+        $(".subParagraphs").hide();
+    });
+
+    $(".logoPicture").click(function(){
+        $(".intro").hide();
+        $(".conds").hide();
+        $(".text").show();
+        $(".insta").hide();
+        $(".safe").hide();
+        $(".extraDiv2").hide();
+        $(".extraDiv3").hide();
+        $(".extraDiv4").hide();
+        $(".aboutUs").hide();
+        $(".bancomats").hide();
+        $(".cell").show();
+        $(".network").hide();
+        $(".currency").hide();
+        $(".creditCards").hide();
+        $(".notifications").hide();
+        $(".myTrans").hide();
+        $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
+    });
+
 
     $(".introduction").click(function () {
         $(".intro").show();
@@ -54,6 +96,18 @@ $(document).ready(function () {
         $(".notifications").hide();
         $(".myTrans").hide();
         $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
 
     });
 
@@ -75,6 +129,18 @@ $(document).ready(function () {
         $(".notifications").hide();
         $(".myTrans").hide();
         $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
 
     });
 
@@ -96,6 +162,18 @@ $(document).ready(function () {
         $(".notifications").hide();
         $(".myTrans").hide();
         $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
 
     });
 
@@ -117,6 +195,18 @@ $(document).ready(function () {
         $(".notifications").hide();
         $(".myTrans").hide();
         $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
 
     });
 
@@ -138,6 +228,18 @@ $(document).ready(function () {
         $(".notifications").hide();
         $(".myTrans").hide();
         $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
 
     });
 
@@ -160,6 +262,18 @@ $(document).ready(function () {
         $(".notifications").hide();
         $(".myTrans").hide();
         $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
 
     });
 
@@ -181,6 +295,18 @@ $(document).ready(function () {
         $(".notifications").hide();
         $(".myTrans").hide();
         $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
 
     });
 
@@ -202,6 +328,18 @@ $(document).ready(function () {
         $(".notifications").hide();
         $(".myTrans").hide();
         $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
 
     });
 
@@ -223,6 +361,18 @@ $(document).ready(function () {
         $(".notifications").hide();
         $(".myTrans").hide();
         $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
 
     });
 
@@ -244,10 +394,22 @@ $(document).ready(function () {
         $(".notifications").show();
         $(".myTrans").hide();
         $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
 
     });
 
-    $(".tran").click(function(){
+    $(".tran").click(function () {
         $(".myTrans").show();
         $(".bancomats").hide();
         $(".extraDiv2").hide();
@@ -265,9 +427,22 @@ $(document).ready(function () {
         $(".creditCards").hide();
         $(".notifications").hide();
         $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
+
     });
 
-    $(".devizni").click(function(){
+    $(".devizni").click(function () {
         $(".myTrans").hide();
         $(".bancomats").hide();
         $(".extraDiv2").hide();
@@ -285,6 +460,314 @@ $(document).ready(function () {
         $(".creditCards").hide();
         $(".notifications").hide();
         $(".devizniSmetki").show();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
+
+    });
+
+    $(".tekovni").click(function () {
+        $(".myTrans").hide();
+        $(".bancomats").hide();
+        $(".extraDiv2").hide();
+        $(".extraDiv3").hide();
+        $(".extraDiv4").hide();
+        $(".conds").hide();
+        $(".intro").hide();
+        $(".text").hide();
+        $(".insta").hide();
+        $(".aboutUs").hide();
+        $(".safe").hide();
+        $(".cell").hide();
+        $(".network").hide();
+        $(".currency").hide();
+        $(".creditCards").hide();
+        $(".notifications").hide();
+        $(".devizniSmetki").hide();
+        $(".tekovniSmetki").show();
+        $(".extraDiv7").show();
+        $(".extraDiv6").show();
+        $(".extraDiv8").show();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
+
+    });
+
+    $(".kreditni").click(function () {
+        $(".myTrans").hide();
+        $(".bancomats").hide();
+        $(".extraDiv2").show();
+        $(".extraDiv3").show();
+        $(".extraDiv4").show();
+        $(".conds").hide();
+        $(".intro").hide();
+        $(".text").hide();
+        $(".insta").hide();
+        $(".aboutUs").hide();
+        $(".safe").hide();
+        $(".cell").hide();
+        $(".network").hide();
+        $(".currency").hide();
+        $(".creditCards").hide();
+        $(".notifications").hide();
+        $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").show();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
+
+    });
+
+    $(".denKniski").click(function () {
+        $(".bancomats").hide();
+        $(".extraDiv2").hide();
+        $(".extraDiv3").hide();
+        $(".extraDiv4").hide();
+        $(".conds").hide();
+        $(".intro").hide();
+        $(".text").hide();
+        $(".insta").hide();
+        $(".aboutUs").hide();
+        $(".safe").hide();
+        $(".cell").hide();
+        $(".network").hide();
+        $(".currency").hide();
+        $(".creditCards").hide();
+        $(".notifications").hide();
+        $(".myTrans").hide();
+        $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").show();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
+
+    });
+
+    $(".devKniski").click(function () {
+        $(".bancomats").hide();
+        $(".extraDiv2").hide();
+        $(".extraDiv3").hide();
+        $(".extraDiv4").hide();
+        $(".conds").hide();
+        $(".intro").hide();
+        $(".text").hide();
+        $(".insta").hide();
+        $(".aboutUs").hide();
+        $(".safe").hide();
+        $(".cell").hide();
+        $(".network").hide();
+        $(".currency").hide();
+        $(".creditCards").hide();
+        $(".notifications").hide();
+        $(".myTrans").hide();
+        $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").show();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
+
+    });
+
+    $(".cre").click(function () {
+        $(".bancomats").hide();
+        $(".extraDiv2").hide();
+        $(".extraDiv3").hide();
+        $(".extraDiv4").hide();
+        $(".conds").hide();
+        $(".intro").hide();
+        $(".text").hide();
+        $(".insta").hide();
+        $(".aboutUs").hide();
+        $(".safe").hide();
+        $(".cell").hide();
+        $(".network").hide();
+        $(".currency").hide();
+        $(".creditCards").hide();
+        $(".notifications").hide();
+        $(".myTrans").hide();
+        $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").show();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
+
+    });
+
+    $(".limKartici").click(function(){
+        $(".bancomats").hide();
+        $(".extraDiv2").show();
+        $(".extraDiv3").show();
+        $(".extraDiv4").show();
+        $(".conds").hide();
+        $(".intro").hide();
+        $(".text").hide();
+        $(".insta").hide();
+        $(".aboutUs").hide();
+        $(".safe").hide();
+        $(".cell").hide();
+        $(".network").hide();
+        $(".currency").hide();
+        $(".creditCards").hide();
+        $(".notifications").hide();
+        $(".myTrans").hide();
+        $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").show();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").hide();
+
+    });
+
+    $(".limUred").click(function(){
+        $(".bancomats").hide();
+        $(".extraDiv2").hide();
+        $(".extraDiv3").hide();
+        $(".extraDiv4").hide();
+        $(".conds").hide();
+        $(".intro").hide();
+        $(".text").hide();
+        $(".insta").hide();
+        $(".aboutUs").hide();
+        $(".safe").hide();
+        $(".cell").show();
+        $(".network").hide();
+        $(".currency").hide();
+        $(".creditCards").hide();
+        $(".notifications").hide();
+        $(".myTrans").hide();
+        $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").show();
+        $(".leftMenu").hide();
+        $(".myData").hide();
+
+    });
+
+    $(".desno").click(function(){
+        $(".bancomats").hide();
+        $(".extraDiv2").hide();
+        $(".extraDiv3").hide();
+        $(".extraDiv4").hide();
+        $(".conds").hide();
+        $(".intro").hide();
+        $(".text").hide();
+        $(".insta").hide();
+        $(".aboutUs").hide();
+        $(".safe").hide();
+        $(".cell").hide();
+        $(".network").hide();
+        $(".currency").hide();
+        $(".creditCards").hide();
+        $(".notifications").hide();
+        $(".myTrans").hide();
+        $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").show();
+        $(".myData").hide();
+    });
+
+    $(".data").click(function(){
+        $(".bancomats").hide();
+        $(".extraDiv2").hide();
+        $(".extraDiv3").hide();
+        $(".extraDiv4").hide();
+        $(".conds").hide();
+        $(".intro").hide();
+        $(".text").hide();
+        $(".insta").hide();
+        $(".aboutUs").hide();
+        $(".safe").hide();
+        $(".cell").hide();
+        $(".network").hide();
+        $(".currency").hide();
+        $(".creditCards").hide();
+        $(".notifications").hide();
+        $(".myTrans").hide();
+        $(".devizniSmetki").hide();
+        $(".tekovniSmetki").hide();
+        $(".extraDiv6").hide();
+        $(".extraDiv7").hide();
+        $(".extraDiv8").hide();
+        $(".kreditniKartichki").hide();
+        $(".denarskiKniski").hide();
+        $(".devizniKniski").hide();
+        $(".credit").hide();
+        $(".limitCards").hide();
+        $(".limitDevices").hide();
+        $(".leftMenu").hide();
+        $(".myData").show();
     })
 
 });
