@@ -36,17 +36,25 @@ $(document).ready(function () {
     $(".activation").hide();
 
 
-
     $(".mainMenu").hover(function () {
         $(".subParagraphs").show();
 
     });
 
-    $(".mainMenu").click(function () {
+   /* $(".mainMenu").click(function () {
         $(".subParagraphs").hide();
-    });
+    });*/
 
-    $(".logoPicture").click(function(){
+    $(".subParagraphs").hover(
+        function () {
+            $(this).show();
+        }, function () {
+            $(this).hide();
+        }
+    )
+
+
+    $(".logoPicture").click(function () {
         $(".intro").hide();
         $(".conds").hide();
         $(".text").show();
@@ -77,6 +85,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -112,6 +121,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -146,6 +156,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -180,6 +191,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -214,6 +226,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -248,6 +261,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -283,6 +297,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -317,6 +332,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -351,6 +367,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -385,6 +402,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -419,6 +437,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -453,6 +472,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -487,6 +507,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -521,6 +542,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -555,6 +577,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -589,6 +612,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -623,6 +647,7 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
@@ -657,10 +682,11 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
-    $(".limKartici").click(function(){
+    $(".limKartici").click(function () {
         $(".bancomats").hide();
         $(".extraDiv2").show();
         $(".extraDiv3").show();
@@ -691,11 +717,12 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
 
     });
 
-    $(".limUred").click(function(){
+    $(".limUred").click(function () {
         $(".bancomats").hide();
         $(".extraDiv2").hide();
         $(".extraDiv3").hide();
@@ -726,10 +753,11 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
-    $(".desno").click(function(){
+    $(".desno").click(function () {
         $(".bancomats").hide();
         $(".extraDiv2").hide();
         $(".extraDiv3").hide();
@@ -760,10 +788,11 @@ $(document).ready(function () {
         $(".leftMenu").show();
         $(".myData").hide();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
-    $(".data").click(function(){
+    $(".data").click(function () {
         $(".bancomats").hide();
         $(".extraDiv2").hide();
         $(".extraDiv3").hide();
@@ -794,10 +823,11 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").show();
         $(".activation").hide();
+        $(".glavnoMeni").hide();
 
     });
 
-    $(".reg").click(function(){
+    $(".reg").click(function () {
         $(".bancomats").hide();
         $(".extraDiv2").hide();
         $(".extraDiv3").hide();
@@ -828,6 +858,8 @@ $(document).ready(function () {
         $(".leftMenu").hide();
         $(".myData").hide();
         $(".activation").show();
-    })
+        $(".glavnoMeni").hide();
+    });
+
 
 });

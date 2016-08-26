@@ -67,15 +67,17 @@ body {
 .subParagraphs {
     color: darkblue;
     position: absolute;
+    margin-left: -40px;
 }
 
 .subParagraphs p {
-    margin-top: 5px;
+    width: 180px;
     position: relative;
     border: 1px solid lightgray;
     font-weight: bold;
     background: #ededff;
     z-index: 9999;
+    text-align: left;
 }
 
 .subParagraphs p:hover {
@@ -102,6 +104,7 @@ body {
     margin-right: -200px;
     padding: 10px;
     line-height: 30px;
+    color: green;
 }
 
 .line {
@@ -170,7 +173,7 @@ body {
 }
 
 .bancomats, .network, .currency, .creditCards, .notifications, .myTrans, .devizniSmetki, .tekovniSmetki,
-.kreditniKartichki, .denarskiKniski, .devizniKniski, .credit, .limitCards, .limitDevices, .leftMenu, .myData, .activation {
+.kreditniKartichki, .denarskiKniski, .devizniKniski, .credit, .limitCards, .limitDevices, .leftMenu, .myData, .activation{
     margin-top: -381px;
     position: relative;
     z-index: 1;
@@ -184,7 +187,7 @@ body {
 
 .bancomats h2, .currency h2, .creditCards h2, .notifications h2, .myTrans h2, .devizniSmetki h2,
 .tekovniSmetki h2, .kreditniKartichki h2, .denarskiKniski h2, .devizniKniski h2, .credit h2, .limitCards h2, .limitDevices h2,
-.leftMenu h2, .myData h2, .activation h2 {
+.leftMenu h2, .myData h2, .activation h2{
     color: green;
     margin-bottom: 20px;
     margin-top: -330px;
@@ -213,7 +216,7 @@ body {
 }
 
 .bancomats p, .network p, .currency p, .creditCards p, .myTrans p, .devizniSmetki p, .tekovniSmetki p, .kreditniKartichki p,
-.denarskiKniski p, .devizniKniski p, .credit p, .limitCards p, .limitDevices p, .leftMenu p, .myData p, .activation p {
+.denarskiKniski p, .devizniKniski p, .credit p, .limitCards p, .limitDevices p, .leftMenu p, .myData p, .activation p{
     width: 450px;
     margin-left: 340px;
     padding: 3px;
