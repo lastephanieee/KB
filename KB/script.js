@@ -66,14 +66,6 @@ $(document).ready(function () {
 
     });
 
-    $(" .informativnoMeni, .voved,  .instalacija, .myTransactions,  .lichniPodatoci").mouseout(function(){
-        $(".informativnoMeni").hide();
-        $(".voved").hide();
-        $(".instalacija").hide();
-        $(".myTransactions").hide();
-        $(".lichniPodatoci").hide();
-
-    })
 
 
     $(".subParagraphs").hover(
@@ -84,8 +76,8 @@ $(document).ready(function () {
         }
     );
 
-    $(".myTransactions").hover(
-        function () {
+    $(".myTransactions")
+        .hover( function () {
             $(this).show();
         }, function () {
             $(this).hide();
@@ -160,7 +152,7 @@ $(document).ready(function () {
     });
 
 
-    $(".introduction").click(function () {
+    $(".vovedP").click(function () {
         $(".intro").show();
         $(".conds").hide();
         $(".text").hide();
@@ -195,7 +187,7 @@ $(document).ready(function () {
 
     });
 
-    $('.conditions').click(function () {
+    $('.condForInsta').click(function () {
         $(".conds").show();
         $(".intro").hide();
         $(".text").hide();
@@ -230,7 +222,7 @@ $(document).ready(function () {
 
     });
 
-    $(".instalation").click(function () {
+    $(".wayOfInsta").click(function () {
         $(".conds").hide();
         $(".intro").hide();
         $(".text").hide();
@@ -511,7 +503,7 @@ $(document).ready(function () {
 
     });
 
-    $(".tran").click(function () {
+    $(".special").click(function () {
         $(".myTrans").show();
         $(".bancomats").hide();
         $(".extraDiv2").hide();
