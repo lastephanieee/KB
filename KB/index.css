@@ -7,12 +7,13 @@
 body {
     background-color: #fff;
     color: #2d2e2e;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 14px;
     margin: 0 0 0 0;
     width: 880px;
     height: 680px;
-    font-family: Verdana;
+    font-family: Arial;
+    text-align: justify;
 }
 
 .backgroundLogo {
@@ -64,29 +65,10 @@ body {
     width: 880px;
 }
 
-.subParagraphs {
-    color: darkblue;
-    position: absolute;
-    margin-left: -40px;
-}
 
-.subParagraphs p {
-    width: 180px;
-    position: relative;
-    border: 1px solid lightgray;
-    font-weight: bold;
-    background: #ededff;
-    z-index: 9999;
-    text-align: left;
-}
-
-.subParagraphs p:hover {
-    color: green;
-    position: relative;
-}
 
 .cell {
-    background-image: url(images/resized.png);
+    background-image: url(images/cell.png);
     width: 450px;
     height: 450px;
     float: left;
@@ -582,4 +564,25 @@ body {
     position: relative;
     margin-left: 450px;
     margin-top: 30px;
+}
+
+.myTransactions, .lichniPodatoci, .informativnoMeni, .instalacija, .voved  {
+    width: 180px;
+    color: darkblue;
+    position: absolute;
+}
+
+.myTransactions p, .lichniPodatoci p, .informativnoMeni p, .instalacija p, .voved  p{
+    width: 180px;
+    position: relative;
+    border: 1px solid lightgray;
+    font-weight: bold;
+    background: #ededff;
+    z-index: 9999;
+    text-align: left;
+}
+
+.myTransactions p:hover, .lichniPodatoci p:hover, .informativnoMeni p:hover, .instalacija p:hover, .voved  p:hover {
+    color: green;
+    position: relative;
 }

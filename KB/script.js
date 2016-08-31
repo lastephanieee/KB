@@ -5,6 +5,11 @@
 $(document).ready(function () {
 
     $(".subParagraphs").hide();
+    $(".myTransactions").hide();
+    $(".lichniPodatoci").hide();
+    $(".informativnoMeni").hide();
+    $(".instalacija").hide();
+    $(".voved").hide();
     $(".intro").hide();
     $(".conds").hide();
     $(".insta").hide();
@@ -37,13 +42,39 @@ $(document).ready(function () {
 
 
     $(".mainMenu").hover(function () {
-        $(".subParagraphs").show();
+        $(".informativnoMeni").show();
 
     });
 
-   /* $(".mainMenu").click(function () {
-        $(".subParagraphs").hide();
-    });*/
+    $(".introduction").hover(function () {
+        $(".voved").show();
+
+    });
+
+    $(".instalation").hover(function () {
+        $(".instalacija").show();
+
+    });
+
+    $(".tran").hover(function () {
+        $(".myTransactions").show();
+
+    });
+
+    $(".desnoMeni").hover(function () {
+        $(".lichniPodatoci").show();
+
+    });
+
+    $(" .informativnoMeni, .voved,  .instalacija, .myTransactions,  .lichniPodatoci").mouseout(function(){
+        $(".informativnoMeni").hide();
+        $(".voved").hide();
+        $(".instalacija").hide();
+        $(".myTransactions").hide();
+        $(".lichniPodatoci").hide();
+
+    })
+
 
     $(".subParagraphs").hover(
         function () {
@@ -51,8 +82,47 @@ $(document).ready(function () {
         }, function () {
             $(this).hide();
         }
-    )
+    );
 
+    $(".myTransactions").hover(
+        function () {
+            $(this).show();
+        }, function () {
+            $(this).hide();
+        }
+    );
+
+    $(".lichniPodatoci").hover(
+        function () {
+            $(this).show();
+        }, function () {
+            $(this).hide();
+        }
+    );
+
+    $(".informativnoMeni").hover(
+        function () {
+            $(this).show();
+        }, function () {
+            $(this).hide();
+        }
+    );
+
+    $(".instalacija").hover(
+        function () {
+            $(this).show();
+        }, function () {
+            $(this).hide();
+        }
+    );
+
+    $(".voved").hover(
+        function () {
+            $(this).show();
+        }, function () {
+            $(this).hide();
+        }
+    );
 
     $(".logoPicture").click(function () {
         $(".intro").hide();
